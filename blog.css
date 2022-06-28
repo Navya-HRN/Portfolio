@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+a{
+    font-size: large;
+}
+
+
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+.home{
+    margin-top: 0%;
+    padding: 0%;
+    background-image: url(https://i.pinimg.com/originals/99/e4/f6/99e4f617634f5839c5def5f040d61258.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+}
+.home  {
+    text-align: center;
+    position: relative;
+    padding-top: 250px;
+}
+.aboutMe {
+    text-align: right;
+    display: inline-block;
+    font-size: large;
+}
+.aboutMe p{
+    padding-top: 5%;
+
+}
+.aboutMe h2{
+    padding-right: 25%;
+}
+#Interests p {
+    font-size: large;
+    padding-top: 5%;
+}
+#Interests h2{
+    padding-left: 25%;
+}
